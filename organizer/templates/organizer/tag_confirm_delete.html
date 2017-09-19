@@ -1,0 +1,10 @@
+{% extends parent_template|default:"organizer/base_organizer.html" %}
+{% load display_form %}
+
+{% block title %}
+{{ block.super }} - Delete Tag
+{% endblock %}
+
+{% block content %}
+  {% delete_form tag.get_delete_url %}
+{% endblock %}

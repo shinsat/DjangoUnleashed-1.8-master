@@ -1,0 +1,11 @@
+{% extends parent_template|default:"organizer/base_organizer.html" %}
+{% load display_form %}
+
+{% block title %}
+{{ block.super }} - Create Startup
+{% endblock %}
+
+{% block content %}
+  {% url 'organizer_startup_create' as form_url %}
+  {% form form_url 'Create Startup' %}
+{% endblock %}

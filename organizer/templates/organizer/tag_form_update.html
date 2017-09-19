@@ -1,0 +1,10 @@
+{% extends parent_template|default:"organizer/base_organizer.html" %}
+{% load display_form %}
+
+{% block title %}
+{{ block.super }} - Update Tag
+{% endblock %}
+
+{% block content %}
+  {% form tag.get_update_url 'Update Tag' %}
+{% endblock %}

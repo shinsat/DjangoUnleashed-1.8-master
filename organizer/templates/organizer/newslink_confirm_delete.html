@@ -1,0 +1,10 @@
+{% extends parent_template|default:"organizer/base_organizer.html" %}
+{% load display_form %}
+
+{% block title %}
+{{ block.super }} - Delete News Article
+{% endblock %}
+
+{% block content %}
+  {% delete_form newslink.get_delete_url %}
+{% endblock %}

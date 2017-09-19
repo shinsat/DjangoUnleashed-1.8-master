@@ -1,0 +1,114 @@
+[
+{
+  "fields": {
+    "slug": "augmented-reality",
+    "name": "augmented reality"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "big-data",
+    "name": "big data"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "django",
+    "name": "django"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "education",
+    "name": "education"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "ipython",
+    "name": "ipython"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "javascript",
+    "name": "javascript"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "jupyter",
+    "name": "jupyter"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "mobile",
+    "name": "mobile"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "node-js",
+    "name": "node.js"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "php",
+    "name": "php"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "python",
+    "name": "python"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "ruby-on-rails",
+    "name": "ruby on rails"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "ruby",
+    "name": "ruby"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "video-games",
+    "name": "video games"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "web",
+    "name": "web"
+  },
+  "model": "organizer.tag"
+},
+{
+  "fields": {
+    "slug": "zend",
+    "name": "zend"
+  },
+  "model": "organizer.tag"
+}
+]

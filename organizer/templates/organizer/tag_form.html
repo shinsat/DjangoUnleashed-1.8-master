@@ -1,0 +1,11 @@
+{% extends parent_template|default:"organizer/base_organizer.html" %}
+{% load display_form %}
+
+{% block title %}
+{{ block.super }} - Create Tag
+{% endblock %}
+
+{% block content %}
+  {% url 'organizer_tag_create' as form_url %}
+  {% form form_url 'Create Tag' %}
+{% endblock %}

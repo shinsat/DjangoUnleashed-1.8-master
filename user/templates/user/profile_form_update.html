@@ -1,0 +1,11 @@
+{% extends parent_template|default:"user/base_user.html" %}
+{% load display_form %}
+
+{% block title %}
+{{ block.super }} - Update Profile
+{% endblock %}
+
+
+{% block content %}
+  {% form profile.get_update_url 'Update Profile' %}
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends parent_template|default:"contact/base_contact.html" %}
+{% load display_form %}
+
+{% block title %}
+{{ block.super }} - Contact Us!
+{% endblock %}
+
+{% block content %}
+  {% url 'contact' as form_url %}
+  {% form form_url 'Contact Us!' %}
+{% endblock %}
